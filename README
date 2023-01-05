@@ -1,0 +1,8 @@
+Compiled using $ gcc Copier.c -o Copier
+
+Usage format is straightforward: $ Copier <SourceFile> <DestinationFile>
+
+Notes:
+I debated on whether or not it should create the destination file if needed, or require one to be premade. I allowed it to create the file in order to faciliate more user freedom, but it does remove a lot of room for user error. A typo in the destination name isn't taken into account, so make sure you type it in correctly.
+
+I spent a lot more time than expected on Blackjack, so this one suffered a bit. Given more time, I would make the timing sync better with the size of the file being transferred.
